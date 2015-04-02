@@ -1,0 +1,15 @@
+{
+	"services": {
+		"silex.facebook.service": {
+			"class": "Silex.FacebookBundle.Services.Facebook",
+			"arguments": [
+				{ "type": "service", "id": "kernel.container" },
+				{ "type": "service", "id": "kernel.config" }
+			],
+			"events": [
+				{ "listener": "kernel.ready", "method": "onKernelReady", "priority": 15 }
+			],
+			"priority": 15
+		}
+	}
+}

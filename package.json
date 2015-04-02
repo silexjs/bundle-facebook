@@ -1,0 +1,31 @@
+{
+	"name": "silex-bundle-facebook",
+	"version": "0.0.1",
+	"description": "[SILEX][BUNDLE] Facebook api",
+	"author": "Valentin Allaire <valentin@sitexw.fr>",
+	"license": "MIT",
+	"keywords": [
+		"Facebook",
+		"api",
+		"silex",
+		"bundle"
+	],
+	"dependencies": {
+		"fb": "<2.0.0",
+		"spaceload": "<2.0.0"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silexjs/bundle-facebook.git"
+	},
+	"bugs": {
+		"url": "https://github.com/silexjs/bundle-facebook/issues"
+	},
+	"homepage": "https://github.com/silexjs/bundle-facebook",
+	"autoload": {
+		"psr-4": {
+			"Silex\\FacebookBundle": "./"
+		}
+	}
+}
